@@ -1,0 +1,363 @@
+<html>
+    <head>
+        <style>
+                    body{
+                        display: flex;
+                        flex-direction: column; 
+                        width: 1200px;
+                        height: 1618px;
+                        align-items:center;
+                        justify-content: space-between;
+                    }
+                    mogo{
+                        display: flex;
+                        justify-self: start;
+                        width: 98px;
+                        height: 33px;
+                        font-family: 'Montserrat' , sans-serif;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 30px;
+                        line-height: 37px;
+        
+                        color: #95E1D3;
+                    }
+                    header{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-self: start;
+                        width: 1200px;
+                        height: 45px;
+                    }
+                    .unused{
+                        width: 69px;
+                        height: 17px;
+                        font-family: 'Montserrat' , sans-serif;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 17px;
+        
+                        color: #95E1D3;
+                    }
+                    .nav{
+                        display: flex;
+                        justify-content: space-between;
+                        flex-direction: row;
+                        width: 470px;
+                        height: 30px;
+                    }
+                    .used{
+                        display: flex;
+                        width: 52px;
+                        height: 30px;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    .name{
+                        font-family: 'Montserrat', sans-serif;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 17px;
+        
+                        color: #F38181;
+                    }
+                    underline{
+                        width: 60px;
+                        height: 4px;
+                        background: #F38181;
+                    }
+                    underliner{
+                        width: 50px;
+                        height: 3px;
+                        background: #F38181;
+                    }
+                    .info1{
+                        display: flex;
+                        width: 275px;
+                        height: 136px;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        align-content: center;
+                    }
+                    .s1-string{
+                        width: 133px;
+                        height: 35px;
+        
+                        font-family: 'Kaushan Script', script, cursive;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 20px;
+        
+                        color: #333333;
+                    }
+                    .s2-string{
+                        width: 275px;
+                        height: 37px;
+                        
+                        font-family: 'Montserrat', sans-serif;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 20px;
+                        line-height: 34px;
+        
+                        color: #333333;
+                    }
+                    .benefits{
+                        width: 1168px;
+                        height: 253px;
+                        display: grid;
+                        grid-template-columns:repeat( 3 , 1fr );
+                    }
+                    .card{
+                        width: 367px;
+                        height: 74px;
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    .name2{
+                        display: flex;
+                        align-self: flex-start;
+                        width: 99.09px;
+                        height: 17px;
+                        font-family: 'Montserrat', sans-serif;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 17px;
+
+                        color: #333333;
+                    }
+                    .text{
+                        width: 310px;
+                        height: 37px;
+                        font-family: Roboto, sans-serif;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        line-height: 22px;
+                        color: #B6B6B6;
+                    }
+                    .number{
+                        line-height: 39px;
+                        font-family: 'Montserrat', sans-serif; 
+                    }
+                    .info2{
+                        display: flex;
+                        width: 1104px;
+                        height: 221px;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        align-content: center;
+                    }
+                    .s21-string{
+                        width: 113px;
+                        height: 35px;
+                        font-family: 'Kaushan Script', script, cursive;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #333333;
+                    }
+                    .s22-string{
+                        width: 232px;
+                        height: 37px;
+                        font-family: Montserrat, sans-serif;
+                        font-size: 20px;
+                        line-height: 34px;
+                    }
+                    .tefo{
+                        width: 1104px;
+                        height: 47px;
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        line-height: 18px;
+                        text-align: center;
+
+                        color: #B6B6B6;
+                   }
+                   .card2{
+                       display: flex;
+                       flex-direction: column;
+                   }
+                   .photo{
+                        width: 380px;
+                        height: 470px;
+                   }
+                   .name{
+                    width: 161px;
+                    height: 17px;
+
+font-family: Montserrat, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+text-align: center;
+font-variant: small-caps;
+
+color: #333333;
+
+
+                   }
+                   .tyrk{
+                    width: 129px;
+                    height: 18px;
+
+                    font-family: Roboto, sans-serif;
+                    font-style: italic;
+                    font-weight: 300;
+                    font-size: 15px;
+                    line-height: 18px;
+
+                    text-align: center;
+
+                    color: #B6B6B6;
+                   }
+                   .company{
+                    width: 297px;
+                    height: 17px;
+
+                    font-family: Montserrat, sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+
+                    text-align: center;
+                    color: #333333;
+                   }
+                   button{
+                    width: 230px;
+                    height: 39px;
+                    border: 1px solid #B6B6B6;
+                   }
+                   .line{
+                    width: 1200px;
+                    height: 1px;
+
+                    border: 1px solid #B6B6B6;
+                   }
+                   .benefis2{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 1200px;
+                    height: 546px;
+                    }
+                    .input{
+                        width: 1200px;
+                        height: 50px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <mogo href="/"> MoGo </mogo>
+            <div class="nav">
+                <div class="used">
+                    <div class="name"> ABOUT </div>
+                    <underline></underline>
+                </div>
+                <div class="unused"> SERVICE </div>
+                <div class="unused"> WORK </div>
+                <div class="unused"> BLOG </div>
+                <div class="unused"> CONTACT </div>
+            </div>
+        </header>
+        <div class="info1">
+            <div class="s1-string"> We work with </div>
+            <div class="s2-string"> AMAZING SERVICES </div>
+            <underline></underline>
+        </div>
+        <div class="benefits">
+            <div class="card" role="card">
+                <div class="number">1</div>
+                <div class="holder">
+                    <div class="name2">PHOTOGRAPHY</div>
+                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+            </div>
+            <div class="card" role="card">
+                <div class="number">2</div>
+                <div class="holder">
+                    <div class="name2">PHOTOGRAPHY</div>
+                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+            </div>
+            <div class="card" role="card">
+                <div class="number">3</div>
+                <div class="holder">
+                    <div class="name2">PHOTOGRAPHY</div>
+                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+            </div>
+            <div class="card" role="card">
+                <div class="number">4</div>
+                <div class="holder">
+                    <div class="name2">PHOTOGRAPHY</div>
+                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+            </div>
+            <div class="card" role="card">
+                <div class="number">5</div>
+                <div class="holder">
+                    <div class="name2">PHOTOGRAPHY</div>
+                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+            </div>
+            <div class="card" role="card">
+                <div class="number">6</div>
+                <div class="holder">
+                    <div class="name2">PHOTOGRAPHY</div>
+                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+            </div>
+        </div>
+        <div class="info2">
+            <div class="s21-string"> Who we are </div>
+            <div class="s22-string"> MEET OUR TEAM </div>
+            <underline></underline>
+            <div class="tefo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+        </div>
+        <div class="benefis2">
+            <div class="card2">
+                <img class="photo" scr='.../img/1men.img'>
+                <div class="name">Matthew Dix</div>
+                <div class="tyrk">Graphic Design</div>
+            </div>
+            <div class="card2">
+                <img class="photo" scr='.../img/2men.img'>
+                <div class="name">Christopher Campbell</div>
+                <div class="tyrk">Branding/UX design</div>
+            </div>
+            <div class="card2">
+                <img class="photo" scr='../img/3men.img'>
+                <div class="name">Michael Fertig</div>
+                <div class="tyrk">Developer</div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="input">
+            <div class="company">© 2016 MoGo free PSD template by Laaqiq</div>
+            <form>
+            <input placeholder="Your email">
+            <button>Subscride</button>
+            <form>
+        </div>
+    </body>
+</html>
