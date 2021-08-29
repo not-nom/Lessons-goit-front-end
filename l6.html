@@ -1,0 +1,237 @@
+<html>
+    <head>
+        <style>
+            header{
+                width: 360px;
+                height: 40px;
+
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .elem{
+                width: 90px;
+                height: 20px;
+
+                font-family: Playfair Display;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 20px;
+            
+                display: flex;
+                align-content: center;
+                justify-content: center;
+
+                color: #7D7D7D;
+            }
+            .elem:nth-child(1){
+                color: #03A9F4;
+            }
+            main{
+                width: 360px;
+                height: 2500px;
+            
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .card{
+                height: 600px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-content: center;
+            }
+            .img{
+                width: 360px;
+                height: 240px;
+            }
+            .header{
+                width: 86px;
+                height: 16px;
+            
+                font-family: Ubuntu;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 16px;
+
+                color: #B4AD9E;
+
+                display: flex;
+                justify-content: center;
+
+            }
+            .Header{
+                width: 360px;
+                height: 80px;
+
+                font-family: Playfair Display;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 40px;
+
+                color: #626262;
+            
+                display: flex;
+                justify-content: center;
+
+            }
+            .text{
+                width: 360px;
+                height: 95px;
+
+                font-family: Playfair Display;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 19px;
+
+                color: #626262; 
+            }
+            button{
+                width: 165px;
+                height: 60px;
+
+                font-family: Playfair Display;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 19px;
+
+                color: #626262;
+            
+            }
+            @media screen and (min-width: 768px) and (max-width: 1023px){
+            
+                body{
+                    width: 768px;
+                }
+                header{
+                    width: 420px;
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                }
+                .card{
+                    width: 420px;
+                    height: 546px;
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .img{
+                    width: 420px;
+                    height: 280px;
+                }
+            .header{
+                width: 420px;
+            }
+            .Header{
+                width: 420px;
+            }
+            .text{
+                width: 420px;        
+                font-size: 15px;
+                line-height: 20px;
+            }
+            button{
+                width: 420px;
+                font-size: 25px;
+                line-height: 40px;
+            }
+
+        }
+        @media screen and (min-width: 1024px) and (max-width: 1919px){
+            body{
+                width: 1024px;
+            }
+            header{
+                width: 1024px;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+            }
+            main{
+                width: 1024px;
+                
+                display:grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .text{
+                font-size: 15px;
+                line-height: 20px;
+            }
+        }
+        @media screen and (min-width: 1920px) {
+            body{
+                width: 1920px;
+            }
+            header{
+                width: 1920px;
+                display:grid;
+                grid-template-columns: repeat(4, 1fr);
+            }            
+            main{
+                width: 1920px;
+                display:grid;
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&amp;family=Ubuntu&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="elem"> LIFESTYLE </div>
+        <div class="elem"> PHOTODIARY </div>
+        <div class="elem"> MUSIC </div>
+        <div class="elem"> TRAVEL </div>
+    </header>
+    <main>
+            <div class="card">
+                    <img class="img" src="https://privet-rostov.ru/uploads/posts/2021-07/thumbs/1625763318_concert-1209323_1280.jpg">
+                    <div class="header"> LIFESTYLE </div>
+                    <div class="Header">
+                        More than just a music festival 
+                    </div>
+                    <div class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
+                    </div>
+            </div>
+            <div class="card">
+                    <img class="img" src="https://www.hapskorea.com/wp-content/uploads/2016/01/cold-weather-coffee.jpeg">
+                    <div class="header"> LIFESTYLE </div>
+                    <div class="Header">
+                        Life tastes better with coffee 
+                    </div>
+                    <div class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
+                    </div>
+            </div>
+            <div class="card">
+                <img class="img" src="https://images.squarespace-cdn.com/content/v1/5beb0a44f2e6b1113f9519d9/1618002323131-CE126H5H464ZQ1S78FO5/Best+Travel+Hashtags+for+Instagram.jpg">
+                <div class="header"> PHOTODIARY </div>    
+                <div class="Header"> American dream </div>
+                    <div class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
+                    </div>
+            </div>
+            <div class="card">
+                    <img class="img" src="https://100woerter.de/wp-content/uploads/2017/01/Die-grundlegenden-Eigenschaften-des-Menschen.jpg">
+                    <div class="header"> PHOTODIARY </div>
+                    <div class="Header">
+                        A day exploring the Alps 
+                    </div>
+                    <div class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
+                    </div>
+            </div>
+            <button>Load more</button>     
+    </main>
+
+</body>
+</html>
